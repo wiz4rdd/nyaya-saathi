@@ -3,4 +3,5 @@
 __pycache__/
 data/pdf/
 .ipynb_checkpoints/
+.DS_Store.env
 .DS_Store
