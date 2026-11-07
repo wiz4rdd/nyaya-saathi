@@ -1,4 +1,6 @@
-# Nyaya Saathi: AI legal-help assistant for everyday problems in India
+# Nyaya Saathi
+
+**Live demo:** https://nyaya-saathi-gzqgf9nll29efnbvhbxdsy.streamlit.app/
 
 Talk (voice or text, in your own language) about a legal problem. It builds a case file, explains your options using
 only retrieved passages from Indian Acts, drafts a legal notice or complaint, lets you practise the conversation with
