@@ -1,0 +1,49 @@
+{
+  "id": "refund_en",
+  "expect": "answer",
+  "auto_pass": false,
+  "seconds": 20.9,
+  "turns": [
+    "Amazon did not refund my returned phone for 40 days."
+  ],
+  "final_answer": "You can treat the situation as a breach of the seller’s warranty that the price (the refund) be paid after you returned the phone.  \n- Under the Sale of Goods Act, a buyer may **set up a breach of warranty in diminution or extinction of the price** and also **sue the seller for damages for breach of warranty**【1】.  \n- If the seller refuses or delays payment, you may also **treat the contract as rescinded and claim damages for the breach**【1】.\n\n### Your practical options\n1. **Send a formal written notice** to Amazon demanding the refund within a reasonable time (e.g., 7 days) and stating that you will claim damages if the refund is not made.  \n2. **If Amazon does not comply**, you can file a claim for the refund plus any loss you suffered (e.g., interest, inconvenience) as damages for breach of warranty.  \n3. **Approach a consumer‑forum or a civil court** with the notice, proof of return (shipping receipt, tracking, email confirmations) and the original order details.  \n4. **If you need help with filing or cannot afford a lawyer**, contact the District Legal Services Authority for free legal aid.\n\n### Next 2‑4 steps you can take right now\n1. Gather all documents: order invoice, return‑shipping receipt, any email or chat confirming the return, and the date you sent the phone back.  \n2. Draft a short demand letter/email: mention the order number, date of return, amount to be refunded, and give a clear deadline (e.g., “please refund within 7 days of receipt of this notice”).  \n3. Send the notice by a traceable method (registered post or email with read receipt) and keep a copy for your records.  \n4. If no refund is received by the deadline, prepare a complaint for the consumer forum or civil court, attaching the notice and all supporting documents.\n\n**Do you know the exact date you sent the phone back to Amazon?**  \n*This is general information, not legal advice.*",
+  "case_file": {
+    "issue": "Refund not received for returned phone",
+    "other_party": "Amazon",
+    "what_happened": "Amazon did not refund my returned phone for 40 days.",
+    "key_dates": [],
+    "amount_inr": null,
+    "proof_they_have": [],
+    "what_they_want": null
+  },
+  "needs_lawyer": false,
+  "warning": "The answer has no source markers, so treat it with extra caution.",
+  "sources": [
+    [
+      "Sale of Goods Act, 1930",
+      "18",
+      0.43
+    ],
+    [
+      "Indian Contract Act, 1872",
+      "33",
+      0.4
+    ],
+    [
+      "Indian Contract Act, 1872",
+      "35",
+      0.39
+    ],
+    [
+      "Indian Contract Act, 1872",
+      "33",
+      0.39
+    ],
+    [
+      "Sale of Goods Act, 1930",
+      "9",
+      0.38
+    ]
+  ],
+  "meta": "English | topic: consumer_refund | searched: refund delay 40 days Amazon consumer rights India"
+}

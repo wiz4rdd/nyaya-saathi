@@ -1,0 +1,34 @@
+{
+  "id": "wages_en",
+  "expect": "answer",
+  "auto_pass": true,
+  "seconds": 10.3,
+  "turns": [
+    "My employer has not paid my salary for 2 months. What can I do?"
+  ],
+  "final_answer": "You can take the following steps:\n\n1. **Send a written demand** to your employer asking for the two months’ salary that is overdue. Keep a copy of the letter and any proof that you sent it (e‑mail, registered post receipt, etc.).  \n\n2. **If the employer does not pay**, you may lodge a complaint with the labour department or the appropriate authority under the Code on Social Security. The Code treats failure to pay amounts that have been deducted from an employee’s wages as a criminal offence, punishable by imprisonment of up to three years and a fine of up to ₹1  lakh [5].\n\n3. **You can also approach the labour court** (or the appropriate civil court) for recovery of the unpaid salary. Any agreement for payment of compensation that is registered under the Code is enforceable even if it conflicts with the Indian Contract Act [3].\n\n4. **Consider getting free legal aid** from the District Legal Services Authority if you cannot afford a lawyer. They can help you prepare the complaint and represent you in court.\n\n**Practical next steps (2‑4 actions):**  \n- Draft and send the demand letter, retaining proof of delivery.  \n- Collect any payslips, employment contract, bank statements or other documents that show the salary was due.  \n- File a complaint with the labour department/competent authority under the Code on Social Security, citing the employer’s failure to pay wages.  \n- If needed, file a suit for recovery of wages in the appropriate court, using the demand letter and the complaint receipt as evidence.\n\n**Key question:** When exactly were the two months’ salaries due, and when did you first raise the issue with your employer?  \n\n*This is general information, not legal advice.*",
+  "case_file": {
+    "issue": "Unpaid salary",
+    "other_party": "Employer",
+    "what_happened": "Employer has not paid salary for 2 months",
+    "key_dates": [],
+    "amount_inr": null,
+    "proof_they_have": [],
+    "what_they_want": "Payment of unpaid salary"
+  },
+  "needs_lawyer": false,
+  "warning": "",
+  "sources": [
+    [
+      "Code on Social Security, 2020",
+      "62",
+      0.55
+    ],
+    [
+      "Code on Social Security, 2020",
+      "82",
+      0.54
+    ]
+  ],
+  "meta": "English | topic: wages | searched: employer unpaid salary 2 months India"
+}

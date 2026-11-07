@@ -1,0 +1,57 @@
+{
+  "id": "wages_multiturn",
+  "expect": "answer",
+  "auto_pass": false,
+  "seconds": 71.8,
+  "turns": [
+    "My company has stopped paying me.",
+    "It's a private company in Dehradun, no pay since August, about Rs 60,000 total. I have my offer letter and bank statements.",
+    "Can you help me write a notice?"
+  ],
+  "final_answer": "**Your options**\n\n1. **Send a legal notice to the company demanding the unpaid wages (₹ 60,000) together with interest.**  \n   Under the Code on Social Security, 2020 the employer is liable to pay simple interest from the date the amount became due until it is actually paid【3】.  \n\n2. **If the company does not respond, you can file a claim before the appropriate labour authority or civil court for the recovery of wages and interest.**  \n\n3. **You may also approach the District Legal Services Authority for free legal aid and assistance in preparing the notice or filing the claim.**  \n\n---\n\n**Practical steps to draft and send the notice**\n\n| Step | What to do | Why |\n|------|------------|-----|\n| 1 | **Prepare a written notice** (typed, one‑page). Include: <br>‑ Your name, address and employee‑ID (if any). <br>‑ Company’s name and address. <br>‑ Reference to your offer letter (date) and the amount of wages due (₹ 60,000). <br>‑ Statement that the wages have been unpaid since August. <br>‑ Demand payment of the full amount **plus simple interest** as required by the Code on Social Security, 2020【3】. <br>‑ A reasonable time‑frame for payment (e.g., 15 days from receipt of the notice). <br>‑ Consequence of non‑payment (you will file a claim before the labour court). | Sets out the factual basis and legal claim clearly. |\n| 2 | **Attach supporting documents**: copy of the offer letter, bank statements showing non‑receipt of salary, any email/communication about salary. | Provides evidence of the debt. |\n| 3 | **Send the notice by registered post (with acknowledgment due) or courier** and keep the receipt. | Creates a proof of service, which is useful if you later approach the court. |\n| 4 | **Wait for the response** (the 15‑day period). If the company pays the amount (including interest), keep the receipt. If there is no response or a refusal, **file a claim** with the labour court or the appropriate industrial tribunal, attaching the notice, receipt of posting, and all documents. You can also seek help from the District Legal Services Authority for filing the claim and possible free legal aid. | Moves the matter to a formal adjudicatory forum where you can enforce the wage claim. |\n\n---\n\n**Sample notice (you can adapt)**  \n\n```\n[Your Name]  \n[Your Address]  \n[City, State – PIN]  \n\nDate: ___________\n\nTo,  \n[Company Name]  \n[Company Address]  \nDehradun – [PIN]\n\nSubject: Demand for Payment of Unpaid Wages (₹ 60,000) with Interest\n\nDear Sir/Madam,\n\nI was employed by your company as per the offer letter dated __________. My salary of ₹ [amount] per month was to be paid on or before the last working day of each month. Despite my continued service, the salary for the month of August 202[?] (₹ 60,000) has not been credited to my bank account (see attached bank statements).\n\nUnder the Code on Social Security, 2020, an employer is liable to pay simple interest on any amount that becomes due until it is actually paid【3】. Accordingly, I hereby demand payment of the unpaid wages of ₹ 60,000 together with interest calculated from 1 August 202[?] up to the date of actual payment.\n\nPlease remit the total amount within **15 days** of receipt of this notice. Failure to do so will leave me with no option but to initiate legal proceedings before the appropriate labour authority/court for recovery of the dues, interest, and any costs incurred.\n\nKindly acknowledge receipt of this notice.\n\nYours faithfully,\n\n[Signature]  \n[Your Name]  \n[Contact Number]  \n[Email ID]\n\nEnclosures:  \n1. Copy of Offer Letter  \n2. Bank Statements showing non‑receipt of salary  \n3. Any other relevant correspondence\n```\n\n---\n\n**Next steps if the notice is ignored**\n\n1. File a wage recovery claim with the labour court or industrial tribunal, attaching the notice, proof of posting, and all supporting documents.  \n2. Request the court to award the unpaid wages **plus simple interest** as per the Code on Social Security, 2020【3】.  \n3. Seek free legal aid from the District Legal Services Authority if you need assistance with drafting the plaint or representation.  \n\n---\n\n*this is general information, not legal advice.*",
+  "case_file": {
+    "issue": "non-payment of wages",
+    "other_party": "private company in Dehradun",
+    "what_happened": "Company has stopped paying me.",
+    "key_dates": [
+      "August"
+    ],
+    "amount_inr": 60000,
+    "proof_they_have": [
+      "offer letter",
+      "bank statements"
+    ],
+    "what_they_want": null
+  },
+  "needs_lawyer": false,
+  "warning": "The answer has no source markers, so treat it with extra caution.",
+  "sources": [
+    [
+      "TODO: name of this Act (56 pages)",
+      "20",
+      0.53
+    ],
+    [
+      "Code on Social Security, 2020",
+      "80",
+      0.53
+    ],
+    [
+      "Code on Social Security, 2020",
+      "77",
+      0.5
+    ],
+    [
+      "Code on Social Security, 2020",
+      "62",
+      0.49
+    ],
+    [
+      "TODO: name of this Act (56 pages)",
+      "27",
+      0.48
+    ]
+  ],
+  "meta": "English | topic: wages | searched: unpaid wages notice private company Dehradun August 60000",
+  "draft": "**Legal Notice**  \n\n**From:**  \n[YOUR NAME]  \n[YOUR ADDRESS]  \n\n**To:**  \n[NAME OF PRIVATE COMPANY]  \n[RECIPIENT ADDRESS] – Dehradun  \n\n**Date:** [DATE OF NOTICE]  \n\n---\n\n**Subject: Demand for Payment of Unpaid Wages (₹ 60,000)**  \n\nSir/Madam,  \n\n1. I was employed by you as per the offer letter dated **[DATE OF OFFER LETTER]** and was drawing a regular salary.  \n\n2. In **August [YEAR]** you stopped crediting my salary without any lawful justification.  \n\n3. The total amount of wages that remain unpaid to me is **₹ 60,000**.  \n\n4. I have attached the following documents as proof of my claim:  \n   - Copy of the offer letter;  \n   - Bank statements showing non‑receipt of the salary for the months in question.  \n\n5. I hereby demand that you pay the outstanding amount of **₹ 60,000** within **fifteen (15) days** from the receipt of this notice.  \n\n6. If the amount is not paid within the stipulated period, I shall be constrained to approach the appropriate labour forum/Industrial Tribunal for recovery of the dues, together with interest, costs and any other relief that may be granted.  \n\nKindly treat this notice as a final opportunity to settle the matter amicably.  \n\n**Yours faithfully,**  \n\n_________________________  \n[YOUR NAME]  \n\n---  \n\n### CHECK BEFORE SENDING  \n\n| Placeholder to fill | Example / Note |\n|---------------------|----------------|\n| [YOUR NAME] | Your full legal name |\n| [YOUR ADDRESS] | Complete residential address |\n| [DATE OF NOTICE] | Date you are sending the notice |\n| [NAME OF PRIVATE COMPANY] | Exact legal name of the employer |\n| [RECIPIENT ADDRESS] | Registered address of the company in Dehradun |\n| [DATE OF OFFER LETTER] | Date mentioned on the offer letter |\n| [YEAR] | Year when salary stopped (e.g., 2024) |\n| [DATE OF AGREEMENT] | If there is any written employment agreement, insert its date |\n| [YEAR OF AUGUST STOP] | Year when payments stopped |\n\n**Proof to attach**  \n- Copy of the offer letter (original or certified copy)  \n- Bank statements showing the absence of salary credit for the relevant months  \n\n**Reminder** – Before dispatching this notice, have it reviewed by a qualified lawyer or the District Legal Services Authority (DLSA) to ensure compliance with procedural requirements.  \n\n---  \n\n**Summary**  \nYou have not been paid ₹ 60,000 in wages since August. This notice demands payment within 15 days, failing which you will approach the appropriate labour forum for recovery, interest, and costs. Attach the offer letter and bank statements, and have a lawyer or DLSA review the notice before sending."
+}

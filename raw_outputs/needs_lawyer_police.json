@@ -1,0 +1,39 @@
+{
+  "id": "needs_lawyer_police",
+  "expect": "lawyer",
+  "auto_pass": true,
+  "seconds": 17.7,
+  "turns": [
+    "Police came to my house with an FIR against me for cheating. What should I do?"
+  ],
+  "final_answer": "You should take the following practical steps:\n\n1. **Stay calm and do not destroy any papers or electronic records.**  Destroying or falsifying evidence is itself an offence (see passage [2]).  \n\n2. **Ask the police for a copy of the FIR and note the exact allegations.**  Knowing what you are accused of will help you and your lawyer prepare a defence.  \n\n3. **Contact a criminal‑lawyer immediately.**  A lawyer can advise you on bail, representation before the police and the court, and whether the case can be compounded (see passage [3] on compounding offences).  \n\n4. **Co‑operate with any lawful request to produce documents or give information.**  Under the law you are legally bound to comply with an inspector‑cum‑facilitator’s demand for documents or information (see passage [4]).  \n\n5. **Do not sign any statement or give a recorded answer without your lawyer present.**  Anything you say may be used as evidence, and giving false information is punishable (see passage [2]).  \n\n**Your options**\n\n- **Apply for bail** (a lawyer can file the bail application).  \n- **Explore compounding of the offence** if the cheating offence qualifies under the provisions that allow compounding (see passage [3]).  \n- **Prepare a defence** with your lawyer, using any documents, messages, or witnesses that show you did not cheat.  \n\n**Next steps (2‑4 actions)**  \n\n1. Request the FIR copy and write down the FIR number.  \n2. Call a criminal lawyer right away; you can get free legal aid from the District Legal Services Authority if you cannot afford one.  \n3. Preserve all relevant documents, messages, bank records, etc., and be ready to produce them if asked (passage [4]).  \n4. Discuss with your lawyer whether the case can be compounded (passage [3]) or whether you should apply for bail.  \n\nWho is the other party in this matter?  \n\n*This is general information, not legal advice.*",
+  "case_file": {
+    "issue": "cheating (FIR)",
+    "other_party": null,
+    "what_happened": "Police came to my house with an FIR against me for cheating.",
+    "key_dates": [],
+    "amount_inr": null,
+    "proof_they_have": [],
+    "what_they_want": "Advice on what to do"
+  },
+  "needs_lawyer": true,
+  "warning": "",
+  "sources": [
+    [
+      "Bharatiya Nyaya Sanhita, 2023",
+      "80",
+      0.59
+    ],
+    [
+      "Code on Social Security, 2020",
+      "84",
+      0.58
+    ],
+    [
+      "Code on Social Security, 2020",
+      "74",
+      0.56
+    ]
+  ],
+  "meta": "English | topic: criminal | searched: FIR cheating Indian Penal Code procedure"
+}

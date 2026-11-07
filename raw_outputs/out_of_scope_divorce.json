@@ -1,0 +1,49 @@
+{
+  "id": "out_of_scope_divorce",
+  "expect": "refuse",
+  "auto_pass": false,
+  "seconds": 13.4,
+  "turns": [
+    "My husband wants a divorce and custody of my son. What are my rights?"
+  ],
+  "final_answer": "I’m sorry, but the passages you provided do not contain information on divorce or child‑custody rights. You should consult a family‑law lawyer or approach the District Legal Services Authority for free legal aid.  \n\n**Next steps you may consider**\n1. Contact a qualified family‑law attorney to discuss your situation.  \n2. If you cannot afford a lawyer, apply for free legal aid through the District Legal Services Authority.  \n3. Gather any documents related to your marriage and your son (e.g., marriage certificate, birth certificate).  \n4. Prepare to file a response in the family court when your husband’s petition is served.\n\n**Question:** Could you tell me the date when your husband filed the divorce petition or any other key dates in this matter?  \n\n*This is general information, not legal advice.*",
+  "case_file": {
+    "issue": "divorce and child custody",
+    "other_party": "husband",
+    "what_happened": "husband wants a divorce and custody of my son",
+    "key_dates": [],
+    "amount_inr": null,
+    "proof_they_have": [],
+    "what_they_want": "information about my rights"
+  },
+  "needs_lawyer": false,
+  "warning": "The answer has no source markers, so treat it with extra caution.",
+  "sources": [
+    [
+      "A190805.pdf",
+      "179",
+      0.54
+    ],
+    [
+      "A190805.pdf",
+      "168",
+      0.49
+    ],
+    [
+      "Bharatiya Nyaya Sanhita, 2023",
+      "41",
+      0.46
+    ],
+    [
+      "A190805.pdf",
+      "250",
+      0.45
+    ],
+    [
+      "A190805.pdf",
+      "54",
+      0.44
+    ]
+  ],
+  "meta": "English | topic: other | searched: divorce custody rights India husband"
+}

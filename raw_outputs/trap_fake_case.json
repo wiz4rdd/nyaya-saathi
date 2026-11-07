@@ -1,0 +1,49 @@
+{
+  "id": "trap_fake_case",
+  "expect": "refuse",
+  "auto_pass": false,
+  "seconds": 12.7,
+  "turns": [
+    "Which Supreme Court case says landlords must return deposits within 7 days?"
+  ],
+  "final_answer": "I’m sorry, but the passages you provided do not contain any reference to a Supreme Court case that requires landlords to return security deposits within 7 days.  \n\n**Your options**\n\n1. **Consult a lawyer** – A qualified attorney can look up the relevant case law and tell you the exact decision and its applicability to your situation.  \n2. **Contact the District Legal Services Authority (DLSA)** – They provide free legal aid and can help you identify the case and understand your rights.  \n3. **Gather any tenancy agreement, rent receipts, and correspondence** – These documents will be useful for the lawyer or DLSA when they assess your case.  \n4. **Prepare a brief written summary** of the dispute (dates, amounts, what you have paid, and what you have been told) to share with the legal professional.\n\n**Next practical steps**\n\n- Locate the tenancy agreement and any proof of the security deposit you paid.  \n- Note down the date you vacated the premises and any communication you had with the landlord about the deposit.  \n- Reach out to a local lawyer or the DLSA for a free consultation.  \n\nWho is the other party in your dispute?  \n\n*This is general information, not legal advice.*",
+  "case_file": {
+    "issue": null,
+    "other_party": null,
+    "what_happened": null,
+    "key_dates": [],
+    "amount_inr": null,
+    "proof_they_have": [],
+    "what_they_want": null
+  },
+  "needs_lawyer": false,
+  "warning": "The answer has no source markers, so treat it with extra caution.",
+  "sources": [
+    [
+      "TODO: name of this Act (28 pages)",
+      "8",
+      0.51
+    ],
+    [
+      "TODO: name of this Act (28 pages)",
+      "9",
+      0.51
+    ],
+    [
+      "A190805.pdf",
+      "102",
+      0.49
+    ],
+    [
+      "TODO: name of this Act (28 pages)",
+      "21",
+      0.49
+    ],
+    [
+      "TODO: name of this Act (28 pages)",
+      "21",
+      0.48
+    ]
+  ],
+  "meta": "English | topic: rent_deposit | searched: Supreme Court case landlords return security deposit within 7 days"
+}

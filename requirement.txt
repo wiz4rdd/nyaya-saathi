@@ -1,0 +1,17 @@
+langchain
+langchain-core
+langchain-community
+pypdf
+pymupdf
+sentence-transformers
+faiss-cpu
+chromadb
+langchain-groq
+python-dotenv
+streamlit>=1.40
+chromadb
+sentence-transformers
+torch
+langchain-groq
+groq
+python-dotenv

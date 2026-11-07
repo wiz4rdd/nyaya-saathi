@@ -1,0 +1,44 @@
+{
+  "id": "needs_lawyer_threat",
+  "expect": "lawyer",
+  "auto_pass": true,
+  "seconds": 18.3,
+  "turns": [
+    "My landlord is threatening to beat me if I don't leave tonight."
+  ],
+  "final_answer": "The threat you have received is a criminal matter.  Under the provisions that apply to rent‑court proceedings, any action taken before the Rent Court or Rent Tribunal is treated as a “judicial proceeding” for the purposes of sections 193, 228 and 196 of the Indian Penal Code [1][4].  Those sections deal with offences such as intimidation and assault, so the landlord’s threat can be reported to the police as a criminal offence.\n\nYou also have a civil remedy if the landlord is trying to force you out without following the proper eviction process laid down in the rent‑act.  The Act sets out the procedure that a landlord must follow to obtain an order of eviction from the Rent Court [3][5]; any eviction without such an order would be illegal.\n\n### Your options\n\n1. **Call the police immediately** and tell them the landlord is threatening violence.  Ask them to register an FIR under the relevant IPC sections (193, 228, 196) that are mentioned in the rent‑act [1][4].  \n2. **Seek a protection order** from the police or the local magistrate (the Act treats rent‑court matters as civil courts for purposes of section 195 and Chapter XXVI of the CrPC) [4].  \n3. **If the landlord tries to evict you**, you can apply to the Rent Court for relief.  The Act requires the landlord to obtain a court order before evicting a tenant [3][5]; you can contest any illegal eviction there.  \n4. **Collect any evidence** of the threat (e.g., text messages, voice recordings, witnesses) and keep it safe for the police and any court proceedings.\n\n### Practical next steps (2‑4)\n\n1. **Dial 100 or go to the nearest police station** right away and give them the details of the threat.  \n2. **Ask the police to file an FIR** citing the relevant IPC sections (193, 228, 196) that are referenced in the rent‑act [1][4].  \n3. **If you feel unsafe**, request immediate police protection or a temporary restraining order.  \n4. **If the landlord attempts to evict you**, file an application with the Rent Court for protection against illegal eviction, citing the provisions on eviction procedures [3][5].\n\n---\n\n**When did the landlord make the threat?**  \n\nthis is general information, not legal advice.",
+  "case_file": {
+    "issue": "Landlord threatening to beat me",
+    "other_party": "Landlord",
+    "what_happened": "Landlord is threatening to beat me if I don't leave tonight.",
+    "key_dates": [],
+    "amount_inr": null,
+    "proof_they_have": [],
+    "what_they_want": null
+  },
+  "needs_lawyer": true,
+  "warning": "",
+  "sources": [
+    [
+      "TODO: name of this Act (28 pages)",
+      "20",
+      0.5
+    ],
+    [
+      "TODO: name of this Act (28 pages)",
+      "13",
+      0.47
+    ],
+    [
+      "TODO: name of this Act (28 pages)",
+      "20",
+      0.46
+    ],
+    [
+      "TODO: name of this Act (28 pages)",
+      "15",
+      0.46
+    ]
+  ],
+  "meta": "English | topic: criminal | searched: landlord threatening violence eviction India"
+}

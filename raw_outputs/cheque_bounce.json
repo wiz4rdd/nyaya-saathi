@@ -1,0 +1,41 @@
+{
+  "id": "cheque_bounce",
+  "expect": "answer",
+  "auto_pass": true,
+  "seconds": 23.1,
+  "turns": [
+    "A friend gave me a cheque for Rs 2 lakh and it bounced."
+  ],
+  "final_answer": "The bounced cheque is dealt with under **Section 138 of the Negotiable Instruments Act, 1881**.  \n\n**What the law says**\n\n* If a cheque is returned unpaid because the account has insufficient funds or the amount exceeds the arrangement with the bank, the drawer is deemed to have committed an offence [1].  \n* The drawer can be punished with imprisonment for a term that may be extended to two years, a fine that may be up to twice the cheque amount, or both [2].  \n* The offence applies only if:  \n  1. The cheque was presented to the bank within six months of its date or within its validity period, whichever is earlier [2] (a).  \n  2. The payee (you) gave the drawer a **written notice** demanding payment within **30 days** of receiving the bank’s return memo [2] (b).  \n  3. The drawer fails to pay the amount within **15 days** of receiving that notice [5] (c).  \n* The law presumes that the holder received the cheque for the discharge of a legally enforceable debt unless the drawer proves otherwise [5] (139).  \n\n**Your practical options**\n\n1. **Check the presentation deadline** – Make sure the cheque was presented to the bank within six months of its date. If it was presented later, Section 138 may not apply.  \n2. **Send a written demand notice** – Draft a simple letter to your friend stating: (a) you received a cheque for ₹2 lakh, (b) the bank returned it unpaid, (c) you require payment of the full amount within 15 days of receipt of this notice. Send it by registered post or any method that gives you proof of delivery.  \n3. **If payment is not made within 15 days**, you can:  \n   * **File a criminal complaint** under Section 138 with the local police or the magistrate’s court. Attach the cheque, the bank’s return memo, and a copy of your notice.  \n   * **Consider a civil suit** for recovery of the money, especially if you also want a quicker monetary judgment.  \n4. **Preserve all documents** – Keep the original cheque, the bank’s bounce memo, the notice you sent, and any acknowledgment or reply from your friend. These will be essential evidence.  \n\n**Next 2‑4 steps you can take right now**\n\n1. Verify the date on the cheque and confirm it was presented within six months.  \n2. Draft and send the written notice demanding payment within 15 days (use registered post).  \n3. If you receive no payment, prepare a complaint under Section 138 and approach the police or the magistrate’s court with the supporting documents.  \n4. Optionally, consult a lawyer or the District Legal Services Authority for free legal aid to help you draft the notice and file the complaint.  \n\n**Quick question:** What are the dates on the cheque and the date you received the bank’s bounce memo?  \n\n*This is general information, not legal advice.*",
+  "case_file": {
+    "issue": "Cheque bounce",
+    "other_party": "friend",
+    "what_happened": "Friend gave me a cheque for Rs 2 lakh and it bounced.",
+    "key_dates": [],
+    "amount_inr": 200000,
+    "proof_they_have": [
+      "cheque"
+    ],
+    "what_they_want": null
+  },
+  "needs_lawyer": true,
+  "warning": "",
+  "sources": [
+    [
+      "Negotiable Instruments Act, 1881",
+      "28",
+      0.62
+    ],
+    [
+      "Negotiable Instruments Act, 1881",
+      "28",
+      0.58
+    ],
+    [
+      "Negotiable Instruments Act, 1881",
+      "28",
+      0.54
+    ]
+  ],
+  "meta": "English | topic: criminal | searched: bounced cheque 2 lakh legal consequences India"
+}

@@ -1,0 +1,49 @@
+{
+  "id": "trap_fake_section",
+  "expect": "refuse",
+  "auto_pass": false,
+  "seconds": 14.2,
+  "turns": [
+    "What does section 999 of the Code on Wages say?"
+  ],
+  "final_answer": "I’m sorry, but the passages you provided do not contain any information about “section 999 of the Code on Wages.” To get accurate details, you should:\n\n1. Consult a qualified lawyer who can look up the specific provision in the official Code on Wages.  \n2. Visit the website of the Ministry of Labour & Employment or the Gazette of India to read the text of the Code.  \n3. If you need free assistance, approach the District Legal Services Authority (DLSA) in your area for legal aid.  \n4. Gather any related documents (e.g., employment contracts, pay slips) that might help the lawyer understand the context.\n\nWho is the other party involved in your matter?  \n\n*This is general information, not legal advice.*",
+  "case_file": {
+    "issue": null,
+    "other_party": null,
+    "what_happened": null,
+    "key_dates": [],
+    "amount_inr": null,
+    "proof_they_have": [],
+    "what_they_want": null
+  },
+  "needs_lawyer": false,
+  "warning": "Section(s) 999 were not found in the retrieved text. Please verify before relying on them. The answer has no source markers, so treat it with extra caution.",
+  "sources": [
+    [
+      "Code on Social Security, 2020",
+      "12",
+      0.56
+    ],
+    [
+      "Code on Social Security, 2020",
+      "74",
+      0.54
+    ],
+    [
+      "Code on Social Security, 2020",
+      "39",
+      0.54
+    ],
+    [
+      "Code on Social Security, 2020",
+      "39",
+      0.53
+    ],
+    [
+      "Code on Social Security, 2020",
+      "81",
+      0.53
+    ]
+  ],
+  "meta": "English | topic: wages | searched: Section 999 Code on Wages"
+}
