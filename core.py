@@ -13,7 +13,6 @@ GROQ_MODEL = os.getenv("GROQ_MODEL", "openai/gpt-oss-120b")     # swap from .env
 WHISPER_MODEL = os.getenv("WHISPER_MODEL", "whisper-large-v3")
 FAST_MODEL = os.getenv("FAST_MODEL", GROQ_MODEL)  # small model for cheap steps, e.g. llama-3.1-8b-instant
 
-# Hash filenames -> readable names. FILL THE TWO "TODO" ENTRIES after opening those PDFs.
 ACT_NAMES = {
     "202504081796627129.pdf": "Legal Services Authorities Act, 1987",
     "A187209.pdf": "Indian Contract Act, 1872",
@@ -247,7 +246,7 @@ class Lawyer:
         except Exception:
             return text
 
-    # ---- one conversational turn
+
     def turn(self, question, history, case, top_k=5, min_score=0.3, practice=False) -> dict:
         u = self.understand(question, history_text(history))
         if not u["legal"] and not case:
