@@ -23,13 +23,13 @@ ACT_NAMES = {
     "Bharatiya_Nyaya_Sanhita,_2023.pdf": "Bharatiya Nyaya Sanhita, 2023",
     "the-sale-of-goods-act-1930.pdf": "Sale of Goods Act, 1930",
     "negotiable-instrument-act.pdf": "Negotiable Instruments Act, 1881",
-    "0e6aea16d11ed1a622f1de43ff3710b4.pdf": "TODO: name of this Act (28 pages)",
-    "682a44b5426bff2c1f4943ee1b2fd566.pdf": "TODO: name of this Act (56 pages)",
+    "0e6aea16d11ed1a622f1de43ff3710b4.pdf": "The Model Tenancy Act, 2021",
+    "682a44b5426bff2c1f4943ee1b2fd566.pdf": "The Industrial Relations Code, 2020",
 }
 
 ANSWER_PROMPT = """You are a legal information assistant for ordinary people in India. You are NOT a lawyer.
 Answer ONLY from the numbered passages below.
-- After every legal statement add the passage number in square brackets, like [2]. Never state a rule without a number.
+- After every legal statement add the passage number in square brackets, like [2]. Use ONLY the numbers 1 to {n}. Never state a rule without a number.
 - Name an Act or section number only if it appears in a passage. Never cite a section, case, court or time limit that is not in the passages.
 - If the passages do not answer the question, say you don't know and suggest a lawyer or the District Legal Services Authority (free legal aid).
 - Say clearly what the person's options are and the next 2-4 practical steps, in plain simple words.
@@ -74,6 +74,7 @@ QUERY: <short English search query for a database of Indian laws; use the key fa
 TOPIC: <one of: wages, consumer_refund, rent_deposit, contract, property, criminal, other>
 NEEDS_LAWYER: <yes or no>
 REASON: <short English phrase, or none>
+LEGAL_PROBLEM: <yes if the user describes or asks about a legal problem, no for greetings or small talk>
 Answer NEEDS_LAWYER yes if there is an arrest, FIR, police, a court summons or hearing date, violence or threats, a deadline about to expire, or a large sum of money.
 
 Conversation so far:
@@ -199,7 +200,7 @@ class Lawyer:
     # ---- understanding
     def understand(self, question: str, hist: str) -> dict:
         out = {"language": "the same language as the question", "query": question,
-               "topic": "other", "needs_lawyer": False, "reason": ""}
+               "topic": "other", "needs_lawyer": False, "reason": "", "legal": True}
         try:
             raw = self._ask(build_prompt(UNDERSTAND_PROMPT, history=hist, question=question), fast=True)
             for key, pat in (("language", r"LANGUAGE:\s*(.+)"), ("query", r"QUERY:\s*(.+)"),
@@ -207,6 +208,8 @@ class Lawyer:
                 m = re.search(pat, raw)
                 if m:
                     out[key] = m.group(1).strip()
+            m = re.search(r"LEGAL_PROBLEM:\s*(\w+)", raw)
+            out["legal"] = not (m and m.group(1).lower().startswith("n"))
             m = re.search(r"NEEDS_LAWYER:\s*(\w+)", raw)
             out["needs_lawyer"] = bool(m and m.group(1).lower().startswith("y"))
         except Exception:
@@ -247,6 +250,12 @@ class Lawyer:
     # ---- one conversational turn
     def turn(self, question, history, case, top_k=5, min_score=0.3, practice=False) -> dict:
         u = self.understand(question, history_text(history))
+        if not u["legal"] and not case:
+            greet = ("Hello! I'm Nyaya Saathi. Tell me what happened, for example unpaid salary, a refund that never "
+                     "came, or a deposit your landlord won't return, and I'll help you understand your options.")
+            return {"case": {}, "missing": [], "language": u["language"], "query": "", "needs_lawyer": False,
+                    "reason": "", "topic": "other", "answer": self.say_in(u["language"], greet), "hits": [],
+                    "warning": "", "meta": f"{u['language']} | greeting, no search"}
         case = self.extract_case(history, question, case or {})
         missing = missing_facts(case)
         hits = self.retrieve(u["query"], top_k, min_score)
@@ -263,7 +272,7 @@ class Lawyer:
                                   history=history_text(history), question=question)
         else:
             followup = (f"- At the end, ask ONE short question to learn: {missing[0]}." if missing else "")
-            prompt = build_prompt(ANSWER_PROMPT, language=u["language"], followup=followup, case=case_json,
+            prompt = build_prompt(ANSWER_PROMPT, n=len(hits), language=u["language"], followup=followup, case=case_json,
                                   context=context, question=question)
         answer = self._ask(prompt)
         valid, invalid = check_citations(answer, len(hits))
